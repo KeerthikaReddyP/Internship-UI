@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.navlinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navlinks li {
+  padding: 10px 20px;
+  border: #f0f0f0 solid 0.05rem;
+  border-radius: 0.5rem;
+  overflow: auto;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
+  text-decoration: underline;
+}
