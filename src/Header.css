@@ -5,12 +5,13 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: #000080;
+    background-color: rgb(2, 2, 60);
 }
 .inputs{
     position: relative;
     display: inline-block;
-    border-radius: 2rem;
+    border-radius: 3rem;
+    overflow: hidden;
     width: 40rem;
 }
 
@@ -23,8 +24,8 @@
     padding: 0.5rem;
     width: 10rem;
     border: none;
-    background-color: #4c61af;
-    color: white;
+    background-color: #f0f0f0;
+    color: black;
     cursor: pointer;
 }
 

@@ -25,15 +25,24 @@
 }
 .section2{
     text-align: left;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 2rem 0.5rem 0;
+}
+.section2 span{
+    background-color: green;
+    color: white;
+    font-size: large;
+    padding: 1rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .section2 label{
     display: inline-block;
-    margin: 0.8rem;
+    margin: 0.5rem 1rem;
 }
 .dropdown{
     display: inline-block;
-    margin: 0.5rem;
+    margin: 0.5rem 1rem;
 }
 
 .range-btn{

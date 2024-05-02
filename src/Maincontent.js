@@ -14,7 +14,7 @@ function Maincontent() {
         <p>Consultants</p>
       </div>
       <div className="section section2">
-        Filters
+        <span>Filters</span>
         <div className="dropdown">
           <button onClick={toggleDropdown} className="dropdown-btn range-btn">{selectedOption}  ⌵</button>
           {isOpen && (
