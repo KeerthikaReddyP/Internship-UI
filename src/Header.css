@@ -10,14 +10,14 @@
 .inputs{
     position: relative;
     display: inline-block;
-    border-radius: 3rem;
-    overflow: hidden;
     width: 40rem;
 }
 
 .header input{
     padding: 0.5rem;
     width: 30rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .dropdown-btn{
@@ -27,6 +27,8 @@
     background-color: #f0f0f0;
     color: black;
     cursor: pointer;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .dropdown-menu{

@@ -15,6 +15,7 @@ function Header() {
         <button onClick={toggleDropdown} className="dropdown-btn">{selectedOption} ⌵</button>
         {isOpen && (
             <div className="dropdown-menu">
+              {console.log("heyyyy")}
                 <a href="/" onClick={()=>dropdownHandler("Patients")}>Patients</a>
                 <a href="/" onClick={()=>dropdownHandler("Consultants")}>Consultants</a>
                 <a href="/" onClick={()=>dropdownHandler("Others")}>Others</a>
