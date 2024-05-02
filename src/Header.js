@@ -8,12 +8,11 @@ function Header() {
     const toggleDropdown=()=>setIsOpen(!isOpen);
     const dropdownHandler=(option)=>{
         setSelectedOption(option);
-        // setIsOpen(false);
     }
   return (
     <div className="header">
       <div className="inputs">
-        <button onClick={toggleDropdown} className="dropdown-btn">{selectedOption}</button>
+        <button onClick={toggleDropdown} className="dropdown-btn">{selectedOption} ⌵</button>
         {isOpen && (
             <div className="dropdown-menu">
                 <a href="/" onClick={()=>dropdownHandler("Patients")}>Patients</a>

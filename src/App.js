@@ -2,6 +2,7 @@
 import "./App.css";
 import NavBar from "./NavBar.js";
 import Header from "./Header.js";
+import Maincontent from "./Maincontent.js";
 
 function App() {
   const link1 = [
@@ -25,7 +26,7 @@ function App() {
         Processes
         <NavBar links={link2} />
       </div>
-      
+      <Maincontent />
     </div>
   );
 }

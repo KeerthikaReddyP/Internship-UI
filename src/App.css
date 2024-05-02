@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 .sidebar {
   width: 10%;
   position: fixed;
@@ -9,6 +10,6 @@
   bottom: 0;
   display: flex;
   flex-direction: column;
-  background-color: #f0f0f0;
+  background-color: white;
   overflow-y: auto;
 }
