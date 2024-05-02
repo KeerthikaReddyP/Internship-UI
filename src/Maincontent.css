@@ -69,6 +69,30 @@
     background-color: white;
     border-left:0.5rem solid pink;
 }
+.sub-section:nth-child(1){
+    border-left:0.5rem solid rgb(221, 161, 240);
+}
+.sub-section:nth-child(1) img{
+    background-color: rgb(221, 161, 240);
+}
+.sub-section:nth-child(2){
+    border-left:0.5rem solid rgb(163, 179, 226);
+}
+.sub-section:nth-child(2) img{
+    background-color: rgb(163, 179, 226);
+}
+.sub-section:nth-child(3){
+    border-left:0.5rem solid rgb(158, 236, 219);
+}
+.sub-section:nth-child(3) img{
+    background-color: rgb(158, 236, 219);
+}
+.sub-section:nth-child(4){
+    border-left:0.5rem solid rgb(232, 206, 158);
+}
+.sub-section:nth-child(4) img{
+    background-color: rgb(232, 206, 158);
+}
 .content h4 {
     margin: 0;
     text-align: left;
@@ -82,7 +106,6 @@
 .icon {
     width: 15%; 
     height: 85%;
-    background-color: pink;
     border-radius: 5rem;
     padding: 0.3rem;
 }
