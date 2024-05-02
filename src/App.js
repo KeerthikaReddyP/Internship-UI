@@ -6,16 +6,16 @@ import Maincontent from "./Maincontent.js";
 
 function App() {
   const link1 = [
-    {title:"Patients", href:"/"},
-    {title:"HR", href:"/"},
-    {title:"Lab", href:"/"},
-    {title:"Pharma", href:"/"}
+    {title:"Patients", href:"/", image:"../images/patient.png"},
+    {title:"HR", href:"/", image:"../images/hr.png"},
+    {title:"Lab", href:"/", image:"../images/labs.png"},
+    {title:"Pharma", href:"/", image:"../images/pharma.png"}
   ];
   const link2 = [
-    {title:"Registration", href:"/"},
-    {title:"Consultation", href:"/"},
-    {title:"Tests&Reports", href:"/"},
-    {title:"Billing", href:"/"}
+    {title:"Registration", href:"/", image:"../images/registration.png"},
+    {title:"Consultation", href:"/", image:"../images/logo2.png"},
+    {title:"Tests&Reports", href:"/", image:"../images/logo3.png"},
+    {title:"Billing", href:"/", image:"../images/consultation.png"}
   ];
   return (
     <div className="App">

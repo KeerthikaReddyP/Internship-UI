@@ -4,6 +4,7 @@
     overflow: hidden;
     padding: 0.5rem 0;
     border-radius: 1rem;
+    overflow:auto;
 }
 .navlinks {
   list-style: none;
@@ -18,12 +19,16 @@
   margin: 0.3rem 0;
   border-bottom: white solid 0.05rem;
   border-radius: 0.5rem;
-  overflow: auto;
+}
+.navlinks li img{
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .navlinks a {
   color: black;
   text-decoration: none;
+  display: block;
 }
 .navlinks li:hover{
   background-color: green;
