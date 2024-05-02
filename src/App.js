@@ -25,6 +25,7 @@ function App() {
         Processes
         <NavBar links={link2} />
       </div>
+      
     </div>
   );
 }

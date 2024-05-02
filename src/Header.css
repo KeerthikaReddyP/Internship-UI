@@ -7,8 +7,41 @@
     padding: 1rem;
     background-color: #000080;
 }
+.inputs{
+    position: relative;
+    display: inline-block;
+    border-radius: 2rem;
+    width: 40rem;
+}
+
 .header input{
-    border-radius: 1rem;
     padding: 0.5rem;
-    width: 25rem;
+    width: 30rem;
+}
+
+.dropdown-btn{
+    padding: 0.5rem;
+    width: 10rem;
+    border: none;
+    background-color: #4c61af;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: block;
+}
+.dropdown-menu a {
+    color: black;
+    padding: 0.5rem;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover {
+    background-color: #ddf5f7;
 }
